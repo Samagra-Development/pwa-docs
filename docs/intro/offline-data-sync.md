@@ -17,7 +17,7 @@ demoSourceUrl: https://github.com/Samagra-Development/pwa-docs
 
   - User-entered data is saved locally in the IndexedDB database.
 
-    <video controls>
+    <video height='500' controls>
       <source src="/assets/offline-feedback.mp4" type="video/mp4" />
     </video>
 

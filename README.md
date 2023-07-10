@@ -1,5 +1,4 @@
-# Docs Template
-
+# PWA Documentation
 ---
 
 - [Contributing Guide](./CONTRIBUTING.md) :flashlight:

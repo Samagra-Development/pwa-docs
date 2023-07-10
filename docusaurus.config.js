@@ -173,7 +173,7 @@ module.exports = {
           icon: {
             alt: 'github logo',
             src: `/logos/github.svg`,
-            href: 'https://github.com/Samagra-Development/docs-template',
+            href: 'https://github.com/Samagra-Development/pwa-docs',
             target: '_blank',
           },
         },
@@ -238,7 +238,7 @@ module.exports = {
           if ((match = docPath.match(/native\/(.*)\.md/)) != null) {
             return `https://github.com/ionic-team/capacitor-plugins/edit/main/${match[1]}/README.md`;
           }
-          return `https://github.com/Samagra-Development/docs-template/edit/main/${versionDocsDirPath}/${docPath}`;
+          return `https://github.com/Samagra-Development/pwa-docs/edit/main/${versionDocsDirPath}/${docPath}`;
         },
         exclude: ['README.md'],
         lastVersion: 'current',

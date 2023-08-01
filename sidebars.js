@@ -4,7 +4,7 @@ module.exports = {
       type: 'category',
       label: 'Getting Started',
       collapsed: false,
-      items: ['index', 'intro/need', 'intro/requirements', 'intro/offline-data-sync'],
+      items: ['index', 'intro/need', 'intro/requirements', 'intro/offline-data-sync', 'intro/enketo-integration'],
     },
     
   ],

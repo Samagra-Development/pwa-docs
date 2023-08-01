@@ -1,23 +1,31 @@
 ---
-title: Need of PWA 🚀
-sidebar_label: Need of PWA 🚀
-slug: /need-of-pwa
+title: Making of Next.js application to the PWA 🚀
+sidebar_label: Next.js -> PWA 🚀
+slug: /next-to-pwa
 ---
 
 <head>
-  <title>Need of PWA 🚀</title>  
+  <title>Making of Next.js application to the PWA 🚀</title>
 </head>
 
-1. **Responsive:** PWAs adapt to different screen sizes and orientations, providing a seamless experience across devices, including desktops, tablets, and mobile phones.
+## 
 
-2. **Offline Support:** PWAs can work offline or in low-connectivity scenarios by caching app resources and data. This allows users to access content even when they're offline or have a weak internet connection.
+Our goal was to enable offline support for Family ID, a Next.js application. By implementing caching of essential assets and data, serving API responses from service workers, and synchronizing local storage with the database, so that users can enjoy uninterrupted access even without an internet connection. This transformation will enhance user experiences and ensure smooth interactions, fostering a seamless journey for Family ID's users, regardless of their connectivity status.
 
-3. **App-like Experience:** PWAs offer a native-like experience with features such as smooth animations, push notifications, and home screen shortcuts, creating a more immersive user experience.
+### Broad Use Cases we targeted
+<br />
 
-4. **Discoverability:** PWAs can be discovered by search engines, making them easily accessible to users. They can also be shared via URL, eliminating the need for app store distribution.
+✅  **Caching Assets and Styling for Offline Mode:**
+The first step for Family ID is to cache all essential assets, including JavaScript files, CSS styling, and images. By utilizing service workers, we can store these resources locally on the user's device. As a result, even when the user is offline, they can access and interact with the app, ensuring uninterrupted service.
 
-5. **Automatic Updates:** PWAs are always up to date, as they utilize service workers to automatically update in the background. This ensures users have the latest version without manual updates.
 
-6. **Secure:** PWAs are served over HTTPS, ensuring data integrity and security. This is especially important when handling sensitive user information.
+✅ **Serving API Responses from Service Workers:**
+To enhance offline support further, we have leveraged service workers to intercept network requests and serve cached API responses when the user is offline. 
 
-7. **Engagement:** PWAs can engage users through push notifications, allowing businesses to reach their audience even when the app is not actively in use.
+
+✅ **Storing User Interaction Data in Local Storage:**
+To achieve this, we have implemented local storage capabilities, enabling the app to store user interactions and changes locally. Whether it's filling out forms or marking tasks complete, the app capture these actions, safeguarding user data during offline periods.
+
+
+✅ **Syncing Local Storage with the Database:**
+When the user comes back online after an offline session, we ensure that the locally stored data syncs seamlessly with the app's backend database. 

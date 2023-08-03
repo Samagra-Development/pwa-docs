@@ -53,6 +53,7 @@ git clone https://github.com/Samagra-Development/Nextjs-PWA
 Once you have cloned the `Nextjs-PWA` repository in GitHub, move to that folder first using the change directory command.
 
 This will change directory to a folder
+
 ```sh
 cd Nextjs-PWA
 ```
@@ -66,12 +67,13 @@ Run the following commands to see that _your local copy_ has a reference to _you
 ```sh
 git remote -v
 ```
+
 By running the above command, you can see that the local copy has a reference to the forked remote repository in GitHub.
+
 ```
 origin  https://github.com/Your_Username/Nextjs-PWA.git (fetch)
 origin  https://github.com/Your_Username/Nextjs-PWA.git (push)
 ```
-
 
 ### 4. Run it :checkered_flag:
 
@@ -84,7 +86,21 @@ yarn install
 - Run application in dev environment
 
 ```
-yarn start
+yarn dev
 ```
 
 Browse - http://localhost:3000
+
+### 5. Rendering Offline 💻
+
+- Build the code
+
+```
+yarn build
+```
+
+- Run application in dev environment
+
+```
+yarn start
+```

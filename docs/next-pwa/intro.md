@@ -1,6 +1,6 @@
 ---
 title: Making of Next.js application to the PWA 🚀
-sidebar_label: Intro
+sidebar_label: Next.js -> PWA 🚀
 slug: /next-to-pwa
 ---
 

@@ -107,4 +107,4 @@ yarn start
 
 This is implemented through [next-pwa](https://www.npmjs.com/package/next-pwa) and [offline-sync-handler](https://www.npmjs.com/package/offline-sync-handler).
 
-_You can check the detailed demo [here](https://drive.google.com/file/d/12CEFf2M9dOVgwalgG_WIF8cnAvquocLi/view?usp=sharing)_ 
+_You can check the detailed demo [here](https://drive.google.com/file/d/1KtZGNZ9_6wisFQo1Wy45zPF50W3kOLTI/view?usp=sharing)_. 
